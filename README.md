@@ -71,3 +71,5 @@
   RisingDB is a fan project. It is not affiliated with, endorsed by or sponsored
   by NetEase or Bungie. Destiny: Rising and all related names, data, text and
   artwork are the property of their respective owners.
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=mistrialx.risingdb)
