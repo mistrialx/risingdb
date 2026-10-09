@@ -56,6 +56,8 @@
   Treat these as close estimates. The data reflects the game version each release
   was built from and does not update by itself.
 
+  I will provide updated app, anywhere from 1-3 hours after destiny rising has updated.
+
   ## Feedback
 
   Found something wrong or missing? Open an [issue](../../issues) and include the
