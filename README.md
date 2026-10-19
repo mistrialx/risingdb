@@ -1,75 +1,49 @@
-# RisingDB
+# RisingDB (Android app) — discontinued
 
-  An unofficial, offline database and toolkit for Destiny: Rising on Android.
+> [!IMPORTANT]
+> **This project has moved.** The Android APK is no longer maintained and won't
+> get updates for new Destiny: Rising patches.
+>
+> **Use Rising DB on the web instead:** https://mistrialx.github.io/risingdb-web/
+>
+> **Source:** https://github.com/mistrialx/risingdb-web
 
-  Everything in the app is read from the game's own data tables. It needs no
-  account, shows no ads, works without an internet connection and requests no
-  permissions.
+## Why
 
-  > **Status:** early developer preview. Expect rough edges.
+RisingDB is now a single web app instead of a separate Android build. It runs
+on Android, iPhone, iPad and PC, installs to your home screen like a normal app,
+and works offline after the first visit. Same data, same tools (build planner,
+roll planner, pity tracker, compare, saved favourites), plus new content.
 
-  ## Download
+## Moving over from the APK
 
-  Get the latest APK from the [Releases](../../releases) page.
+1. Open https://mistrialx.github.io/risingdb-web/ in Chrome on your phone.
+2. Tap **⋮** → **Install app** (or **Add to Home screen**).
+3. Open it once while online so it can save everything for offline use.
+4. Uninstall the old RisingDB APK.
 
-  1. Download `RisingDB.apk`.
-  2. Open it on your Android phone and allow installing from this source if asked.
-  3. Requires Android 7.0 or newer.
+Install steps for iPhone, iPad and PC are in the
+[risingdb-web README](https://github.com/mistrialx/risingdb-web#readme).
 
-  To update, install a newer release over the old one. Your builds and saved
-  entries are kept.
+> [!NOTE]
+> Saved builds and favourites from the APK don't carry over by themselves.
+> Recreate them in the web app before uninstalling the APK.
 
-  ## Features
+## Issues and feedback
 
-  ### Wiki
-  - **Characters:** abilities, talents, relics and the game's recommended builds
-  - **Weapons:** stats, perk pools with roll chances, catalysts, Exotic Resonance
-  - **Perks, mods and artifacts:** effects, attributes and set bonuses
-  - **Activities:** strikes, Crota's End, gauntlets, Front Lines, public events and more
-  - **Enemies:** where each appears, with estimated health and shields
-  - **Drop rates and Farming:** what each chest drops and where to farm any item
-  - **Also:** draws, shops, crafting, reward tracks, events, triumphs, lore and guides
+Open new issues on [risingdb-web](https://github.com/mistrialx/risingdb-web/issues).
+Issues on this repo won't be looked at.
 
-  ### Tools
-  - **Build planner:** character, weapons, traits, mods, catalyst perks, artifacts
-    and sets, relic modules and Emanare
-  - **Roll planner:** pick the perks you want and see the odds of that roll
-  - **Pity tracker:** count your draws and see your current chance
-  - **Compare:** up to four entries side by side
-  - **Saved:** star anything, with backup and restore to a file
+## Old releases
 
-  ## Privacy
+The last APK is still on the [Releases](../../releases) page for reference.
+Its data is frozen at the game version it was built from.
 
-  - The app never connects to the internet.
-  - It requests no Android permissions.
-  - Builds, saved entries and counters are stored on your device only.
+## License and disclaimer
 
-  ## Accuracy
+[MIT License](LICENSE). The license covers this project's own work only, not the
+game's content.
 
-  The data comes straight from the game files, but some figures are worked out
-  from those tables and are not confirmed against the live game:
-
-  - Drop chances
-  - Enemy health and shield values
-  - Which reward list belongs to which raid or gauntlet encounter
-
-  Treat these as close estimates. The data reflects the game version each release
-  was built from and does not update by itself.
-
-  I will provide updated app, anywhere from 1-3 hours after destiny rising has updated.
-
-  ## Feedback
-
-  Found something wrong or missing? Open an [issue](../../issues) and include the
-  entry name and what you expected to see.
-
-  ## License
-
-  The app is provided free of charge under the [MIT License](LICENSE). The
-  license covers this project's own work only, not the game's content.
-
-  ## Disclaimer
-
-  RisingDB is a fan project. It is not affiliated with, endorsed by or sponsored
-  by NetEase or Bungie. Destiny: Rising and all related names, data, text and
-  artwork are the property of their respective owners.
+RisingDB is a fan project. It is not affiliated with, endorsed by or sponsored
+by NetEase or Bungie. Destiny: Rising and all related names, data, text and
+artwork are the property of their respective owners.
